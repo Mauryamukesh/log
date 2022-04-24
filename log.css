@@ -1,0 +1,144 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.login_container
+{
+    width: 100%;
+    /* background: #f83953; */
+    height: 100vh;
+    position: relative;
+}
+.sub_login
+{
+    width: 50%;
+    height: 70%;
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.login_left, .login_right
+{
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.login_left
+{
+    width: 100%;
+    height: auto;
+}
+
+.login_img img
+{
+    width: 100%;
+    height: auto;
+}
+.login_right
+{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    background: linear-gradient(to right,rgb(223, 22, 22), rgba(74,86,157,.8));
+    border-radius: 20px;
+}
+.head
+{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid greenyellow; */
+    margin: 20px 0;
+}
+.head h1
+{
+    text-align: center;
+    font-size: 44px;
+    color: #fff;
+    background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 700;
+}
+.form_start
+{
+    /* border: 1px solid black; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.loginIcon
+{
+    margin: 40px auto;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.loginIcon input
+{
+    width: 80%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    padding-left: 5px;
+}
+::placeholder
+{
+    color: #111;
+}
+.fa{
+    margin-right: 10px;
+}
+.eye
+{
+    position: absolute;
+    cursor: pointer;
+}
+#hide1
+{
+    display: none;
+}
+
+.forget
+{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin: -30px 0px 30px 0;
+    cursor: pointer;
+}
+.forget p
+{
+    color: #111;
+    padding: 0 5px;
+    text-transform: ;
+}
+.forget i
+{
+    color: #111;
+}
+
+
+.btn
+{
+    margin: 30px 50px;   
+}
+button
+{
+    padding: 10px 15px;
+    font-size: 24px;
+    background: #6cfc0d;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+}
